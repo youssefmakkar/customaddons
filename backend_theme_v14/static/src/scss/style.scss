@@ -378,13 +378,13 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 // App Dashboard
 
 .o_menu_apps .dropdown-menu.show {
-    background: url(/dashboard);
-    background-origin: border-box;
+    background: url(/dashboard) no-repeat center fixed;
+    //background-origin: border-box;
     background-size: cover;
-    height: calc(100vh);
-    max-height: calc(100vh);
-    border-top: $o-navbar-height solid transparent;
-    top: 0 !important;
+    //height: calc(100vh);
+    //max-height: calc(100vh);
+    //border-top: $o-navbar-height solid transparent;
+    //top: 0 !important;
 }
 
 .o_main_navbar > ul.o_menu_systray {
